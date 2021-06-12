@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-# Adding this becaause it will not commit otherwise
+# Adding this becaause it will not commit otherwise x2
 
 Character.create([
     {name: "Neo", description: "a fictional character and the protagonist of The Matrix franchise"},
